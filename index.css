@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    background-image: url(images/暖色1.jpg);
+}
+div.inner{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    height: 80px;
+}
+nav{
+    height: 41px;
+    background-color:rgba(189, 156, 156, 0.233);
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 20px 20px 20px 20px;
+}
+
+nav ul li a:link,nav ul li a:visited{
+    color: black;
+}
+
+div#container1{
+    height: 500px;
+}
+
+div#container1 div.inner div#import{
+    margin-top:120px ;
+    margin-right: 80px;
+    border-color: #714e0d;
+    border: solid;
+    width:300px;
+    height: 300px;
+    float:left;
+}
+div#container1 div.inner div#import img{
+    width: 300px;
+    height: 300px;
+}
+
+div#container1 div.inner div#intro{
+    width:680px;
+    height: 500px;
+    margin-left: 50px;
+    font-size: large;
+    border: 1px solid #fff;
+    background-color: rgba(189, 156, 156, 0.233);
+    border-radius: 10px;
+    position: absolute;
+    left: 60%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+div#container1 div.inner div#intro h1{
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+div#container1 div.inner div#intro p{
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+div#container2{
+    height: 100px;
+}
+footer{
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 50px;
+  }

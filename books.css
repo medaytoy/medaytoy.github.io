@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 0;
+}
+div#container{
+	display: table;
+	border-spacing: 10px;
+}
+div#row{
+	display: table-row;
+}
+section#bookintro {
+    display: table-cell;
+    background-color: antiquewhite;
+    width: 70%;
+    padding: 15px;
+    vertical-align: top;
+}
+section#bookintro h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+section#bookintro p{
+    margin-left: 50px;
+    line-height: 2em;
+    font: sans-serif;
+}
+section#bookintro div.sen{
+    line-height:         1.9em;
+    font-style:          italic;
+    font-family:         Georgia, "Times New Roman", Times, serif;
+    color:               #444444;
+    border-color:        white;
+    border-width:        1px;
+    border-style:        dashed;
+    background-color:    #eaf3c5;
+    padding:             25px;
+    padding-left:        80px;
+    margin:              30px;
+    margin-right:        50px;
+    background-image:    url(images/background.gif);
+    background-repeat:   no-repeat;
+    background-position: top left;
+  }
+
+aside{
+    line-height: 2em;
+    display: table-cell;
+    background:       antiquewhite bottom right;
+    font-size:        105%;
+    padding:          15px;
+    vertical-align:top;
+  }
+footer{
+    text-align: center;
+}
